@@ -67,6 +67,7 @@ main h2{
 }
     
 main p {
+    line-height: 24px;
     font-size: 14px;
     margin: 0px;
 }
