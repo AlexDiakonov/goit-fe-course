@@ -10,9 +10,10 @@ html {
 
 .container {
     width: 900px;
-    margin: 0 auto;
+    margin: 0px auto;
     color: #626262;
 }
+a {display: block;}
 
 nav a {
     font-size: 14px;
@@ -25,9 +26,11 @@ nav a {
 a:hover, a:focus {
     color: #03a9f4;
 }
-.navigation{
-    margin-top: 77px;
-    margin-bottom: 104px;
+
+header{padding: 77px 0px 104px}
+
+.navigation {
+    font-size: 0px;
     padding: 0px;
     width: 900px;
     text-align: center;
@@ -47,6 +50,7 @@ li{
 }
 ul{ 
     padding: 0%;
+    padding-bottom: 56px;
 }
 
 article{
@@ -57,7 +61,7 @@ section{
     font-size: 0;
 }
 
-
+main ul{margin: 0px;}
 main h2{
     font-size: 30px;
     font-weight: normal;
@@ -75,26 +79,17 @@ main p {
 .art1 li{
     margin-right: 60px;
 }
-.art1 li:last-child{
+.art1 li:nth-child(2n){
     margin-right: 0px;
+}
+.art1 li:nth-child(-n+4){
+    margin-bottom: 136px;
 }
 
 section img{
     width: 420px 280px;
-    margin-bottom: 32px;
+    padding-bottom: 32px;
     display: inline-block;
-}
-.art2 li{
-    margin-right: 60px;
-}
-.art2 li:last-child{
-    margin-right: 0px;
-}
-.art3 li{
-    margin-right: 60px;
-}
-.art3 li:last-child{
-    margin-right: 0px;
 }
 
 .description{
@@ -104,24 +99,20 @@ section img{
     color: #b4ad9e;
 }
 
-article p {
-    margin-bottom: 138px;
-}
-
-article p:last-child {
-    margin-bottom: 85px;
-}
-
-footer, a{
+button {
     font-size: 20px;
-    text-align: center;
-    margin-bottom: 95px;
-}
-.button {
+    line-height: 24px;
     color: #626262;
     text-decoration: none;
     border: 1px solid;
     padding: 15px 33px;
+}
+.button {
+    text-align: center;
+    padding-bottom: 70px;
+}
+button:hover, button:focus {
+    color: #03a9f4
 }
 
 
