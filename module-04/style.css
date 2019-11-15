@@ -177,6 +177,7 @@ main a {
     line-height: 26px;
 }
 .news h3::after{ 
+    width: 137px;
     margin-top:12px;
     display: block;
     content: '';
