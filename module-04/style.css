@@ -140,17 +140,12 @@ main a {
     margin-top: 0px;
     float: right;
 }
-.products {
-    display: table;
-    clear: both;
-}
 
 .products li:hover .close {
     background-color: #4ec6ab;
 }
 .products li:hover .price {
-    background-color: #4ec6ab;
-    opacity: 0.6;
+    background-color:rgba(127, 217, 199, 0.7)
 }
 
 .products {
