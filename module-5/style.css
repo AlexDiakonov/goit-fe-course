@@ -72,18 +72,17 @@ header {
     position: relative;
 }
 .submenu {
-    right: -95%;
     list-style: none;
     margin: 0px;
     padding: 0px;
     width: 105px;
     z-index: 100;
     position: absolute;
-    opacity: 0;
+    display: none;
 }
 .menu-shop:hover .submenu {
-    opacity: 1;
-    transition: 0.5s linear;
+    display: block;
+    right: -95%;
 }
 .submenu-item {
     text-align: center;
