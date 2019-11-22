@@ -278,11 +278,11 @@ h4 {
 }
 .heart {
     opacity: 0;
-    padding: 5px;
+    padding: 10px;
     border: 1px solid;
     border-color: whitesmoke;
-    width: 40px;
-    height: 40px;
+    width: 27px;
+    height: 27px;
     position: absolute;
 }
 .collection li:hover .heart{
@@ -290,16 +290,17 @@ h4 {
     transition: 0.3s linear;
 }
 .heart:hover {
-    height: 42px;
+    width: 32px;
+    height: 32px;
     border: 0px;
-    padding-left: 10px;
+    padding-left: 15px;
     background-color: #1abc9c;
 }
 .share {
     opacity: 0;
-    height: 40px;
-    width: 40px;
-    padding:5px;
+    height: 27px;
+    width: 27px;
+    padding:10px;
     border: 1px solid whitesmoke;
     position: absolute;
 }
@@ -308,9 +309,10 @@ h4 {
     transition: 0.3s linear;
 }
 .share:hover{
-    height: 42px;
+    width: 32px;
+    height: 32px;
     border: 0px;
-    padding-left: 10px;
+    padding-left: 15px; 
     background-color: #1abc9c;
 }
 .icon2 {
@@ -329,9 +331,9 @@ h4 {
 }
 .watch{
     opacity: 0;
-    height: 40px;
-    width: 40px;
-    padding:5px;
+    height: 27px;
+    width: 27px;
+    padding: 10px;
     border: 1px solid whitesmoke;
     position: absolute;
 }
@@ -340,9 +342,10 @@ h4 {
     transition: 0.3s linear;    
 }
 .watch:hover {
-    height: 41px;
+    width: 32px;
+    height: 32px;
     border: 0px;
-    padding-left: 10px;
+    padding-left: 15px;
     background-color: #1abc9c;
 }
 .icon4 {
@@ -360,15 +363,17 @@ h4 {
 .cart {
     z-index: 2000;
     left: 5%;
-    top: 10%;
+    top: 21%;
     position: absolute;
     float: left;
-    height: 40px;
-    width: 40px;    
+    height: 27px;
+    width: 27px;    
 }
 .icon4:hover .cart {
-    padding-left: 10px;
-    transition: 0.3s;
+    height: 35px;
+    width: 35px;
+    padding-left: 17px;
+    transition: 0.5s;
 }
 .collection li:hover .cart-wrapper {
     opacity: 1;
