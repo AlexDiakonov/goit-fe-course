@@ -141,8 +141,16 @@ header {
 .but-left {
     left: 17%;
 }
+.but-left:hover img {
+    padding-right: 20px;
+    transition: 0.3s linear;
+}
 .but-right{
     right: 17%;
+}
+.but-right:hover img {
+    padding-left: 20px;
+    transition: 0.3s linear;
 }
 
 .slider-h{
