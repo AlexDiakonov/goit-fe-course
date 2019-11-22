@@ -290,6 +290,7 @@ h4 {
     transition: 0.3s linear;
 }
 .heart:hover {
+    height: 42px;
     border: 0px;
     padding-left: 10px;
     background-color: #1abc9c;
@@ -307,6 +308,7 @@ h4 {
     transition: 0.3s linear;
 }
 .share:hover{
+    height: 42px;
     border: 0px;
     padding-left: 10px;
     background-color: #1abc9c;
@@ -338,6 +340,7 @@ h4 {
     transition: 0.3s linear;    
 }
 .watch:hover {
+    height: 41px;
     border: 0px;
     padding-left: 10px;
     background-color: #1abc9c;
