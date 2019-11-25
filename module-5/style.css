@@ -5,22 +5,18 @@
   }
 button{
     outline: none;
-  }
-body {
-    margin: 0px;
 }
+ul {list-style: none;}
 a{
     text-decoration: none;
     display: block;
 }
-.container {
-    width: 100%;  
+body {  
     padding-top: 38px;
     font-family: 'Roboto', sans-serif;
     margin: 0 auto;
 }
 .logo {
-    margin-top: 4px;
     float: left;
     text-decoration: none;
   }
@@ -36,10 +32,10 @@ h1::first-letter {
     font-weight: 800;
     color: #1abc9c;
   }
-header {
+.header-container {
     padding-bottom: 40px;
     margin: 0 auto;
-    width: 86.75%;
+    width: 1110px;
 }
 .menu {
     float: right;
@@ -48,7 +44,6 @@ header {
     
 }
 .menu-item {
-    margin-top: 19px;
     padding: 0px;
     margin-right: 35px;
     list-style: none;
@@ -123,7 +118,7 @@ header {
     top: 0px;
 }
 .button {
-    z-index: 3;
+    z-index: 4;
     background-color: rgba(26, 188, 156, 0.65);
     height: 70px;
     width: 70px;
@@ -134,58 +129,63 @@ header {
 }
 .button:hover{
     background-color: #1abc9c;
-    opacity: 0.9;
+    background-size: 50%;
     transition: 0.3s linear;
 }
 .but-left {
+    background-image: url(img/left.png);
+    background-size: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
     left: 17%;
 }
-.but-left:hover img {
-    padding-right: 20px;
-    transition: 0.3s linear;
-}
 .but-right{
+    background-size: 25px;
+    background-image: url(img/right.png);
+    background-position: center;
+    background-repeat: no-repeat;
     right: 17%;
 }
-.but-right:hover img {
-    padding-left: 20px;
-    transition: 0.3s linear;
+.slider-hp {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 555px;
+    left: 27%;
+    top: 33%;
+    z-index: 6;
+    position: absolute;
 }
-
 .slider-h{
+    margin-bottom: 20px;
+    margin-top: 0px;
     font-weight: 350;
     color: white;
     font-size: 45px;
-    top: 23%;
-    left: 49%;
-    transform: translateX(-50%);
-    z-index: 4;
-    position: absolute;
+
 }
 .slider-p{
+    margin: 0px;
     font-weight: 300;
-    position: absolute;
-    z-index: 6;
     color: white;
     font-size: 16px;
-    top: 45%;
-    right: 47%;
 }
 .main-wrapper {
-    padding-bottom: 100px;
-    background-color: #e9f0fd;
     width: 100%;
 }
 main{
-    margin: 0 auto;
-    width: 86.75%;
+    padding-top: 60px;
+    background-color: #e9f0fd;
+    padding-bottom: 90px;
 }
 
 /* main collection starts here!!!! */
-
+.new-coll {
+    margin: 0 auto;
+    width: 1110px;
+}
 h3 {
     margin-bottom: 70px;
-    margin-top: 90px;
     font-weight: 700;
     line-height: 29px;
     font-size: 40px;
@@ -215,7 +215,7 @@ h3::after{
     position: relative;
     float: left;
 }
-.collection li:nth-child(-n+3) {
+.pics:nth-child(-n+3) {
     margin-right: 30px;
 }
 .wrapper {
@@ -251,6 +251,7 @@ h4 {
     transition: 0.3s linear;
     background-color: #1abc9c;
 }
+
 .collection li:hover .price{
     background-color: #7fd9c7;
     transition: 0.3s linear;
@@ -269,135 +270,101 @@ h4 {
     opacity: 0.6;
     transition: 0.3s linear;
 }
-.icon {
+.icons {
+    opacity: 0;
+    width: 166px;
+    height: 107px;
     padding: 0px;
     top: 30%;
     left: 18%;
     position: absolute;
     border: none;
 }
-.heart {
-    opacity: 0;
-    padding: 10px;
-    border: 1px solid;
-    border-color: whitesmoke;
-    width: 27px;
-    height: 27px;
-    position: absolute;
-}
-.collection li:hover .heart{
+.collection li:hover .icons {
     opacity: 1;
     transition: 0.3s linear;
 }
-.heart:hover {
-    width: 32px;
-    height: 32px;
-    border: 0px;
-    padding-left: 15px;
-    background-color: #1abc9c;
+.iconsli {
+    width: 50px;
+    height: 50px;
 }
-.share {
-    opacity: 0;
-    height: 27px;
-    width: 27px;
-    padding:10px;
-    border: 1px solid whitesmoke;
+.iconsli:nth-child(-n+2) {
+    margin-right: 8px;
+}
+.iconsli {
+    margin-bottom: 6px;
+}
+.icon {
+    background: transparent;
+    background-image: url(img/heart.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    top: 0%;
+    height: 50px;
+    left: 0%;
     position: absolute;
-}
-.collection li:hover .share{
-    opacity: 1;
-    transition: 0.3s linear;
-}
-.share:hover{
-    width: 32px;
-    height: 32px;
-    border: 0px;
-    padding-left: 15px; 
-    background-color: #1abc9c;
+    border: 1px solid white;
 }
 .icon2 {
-    padding: 0px;
-    top: 30%;
-    left: 40%;
     position: absolute;
-    border: none;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    background-image: url(img/share.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .icon3 {
-    padding: 0px;
-    top: 30%;
-    left: 62.1%;
     position: absolute;
-    border: none;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    background-image: url(img/watch.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
-.watch{
-    opacity: 0;
-    height: 27px;
-    width: 27px;
-    padding: 10px;
-    border: 1px solid whitesmoke;
-    position: absolute;
-}
-.collection li:hover .watch { 
-    opacity: 1;
-    transition: 0.3s linear;    
-}
-.watch:hover {
-    width: 32px;
-    height: 32px;
-    border: 0px;
-    padding-left: 15px;
-    background-color: #1abc9c;
+.iconsli2 {
+    width: 166px;
+    height: 50px;
 }
 .icon4 {
-    left: 18%;
-    top: 48%;
-    border: solid white 1px;
-    opacity: 0;
-    width: 164px;
-    height: 52px;
-    padding: 0px;
-    border: none;
-    background-color:#323232;
+    background: transparent;
+    width: 166px;
+    height: 50px;
     position: absolute;
+    background-image: url(img/cart.png);
+    background-size: 30px;
+    background-position: 5% 50%;
+    background-repeat: no-repeat;
 }
-.cart {
-    z-index: 2000;
-    left: 5%;
-    top: 21%;
-    position: absolute;
-    float: left;
-    height: 27px;
-    width: 27px;    
-}
-.icon4:hover .cart {
-    height: 35px;
-    width: 35px;
-    padding-left: 17px;
-    transition: 0.5s;
-}
-.collection li:hover .cart-wrapper {
-    opacity: 1;
-    transition: 0.3s linear;
-}
-.icon4:hover {
-    background-color: #1abc9c;
-}
-.add-cart{
-    margin-top: 17px;
-    margin-right: 10px;
+.add-cart {
     text-transform: uppercase;
-    color: white;
+    margin: 0px;
     font-size: 14px;
+    color: white;
     float: right;
 }
+.pow:hover {
+    background-size: 40px;
+    border: none;
+    background-color: #1abc9c;
+    transition: 0.3s linear;
+}
+
 footer {
-    text-align: center;
     height: 90px;
     background-color: #323232;
-    width: 100%;
+}
+.footer {
+    padding-top: 35px;
+    text-align: center;
 }
 footer p {
-    margin-top: 35px;
+    margin: 0px;
     display: inline-block;
     color: white;
     font-size: 16px;
