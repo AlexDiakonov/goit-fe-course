@@ -172,7 +172,7 @@ h1::first-letter {
     width: 100%;
 }
 main{
-    padding-top: 60px;
+    padding-top: 90px;
     background-color: #e9f0fd;
     padding-bottom: 90px;
 }
@@ -183,6 +183,7 @@ main{
     width: 1110px;
 }
 h3 {
+    margin: 0px;
     margin-bottom: 70px;
     font-weight: 700;
     line-height: 29px;
