@@ -88,6 +88,7 @@ h1::first-letter {
     width: 105px;
     border: solid #747272 1px;
     border-radius: 5px;
+    transition: padding 0.3s linear;
 }
 .submenu-item:hover {
     transition: 0.45s;
@@ -137,6 +138,7 @@ h1::first-letter {
     background-position: center;
     background-repeat: no-repeat;
     left: 17%;
+    transition: background-size 0.3s linear;
 }
 .but-right{
     background-size: 25px;
@@ -144,6 +146,7 @@ h1::first-letter {
     background-position: center;
     background-repeat: no-repeat;
     right: 17%;
+    transition: background-size 0.3s linear;
 }
 .slider-hp {
     list-style: none;
@@ -298,6 +301,7 @@ h4 {
     height: 50px;
     position: absolute;
     border: 1px solid white;
+    transition: background-size 0.3s linear;
 }
 .icon2 {
     position: absolute;
@@ -308,6 +312,7 @@ h4 {
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: center;
+    transition: background-size 0.3s linear;
 }
 .icon3 {
     position: absolute;
@@ -318,6 +323,7 @@ h4 {
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: center;
+    transition: background-size 0.3s linear;
 }
 .iconsli2 {
     width: 166px;
@@ -332,6 +338,7 @@ h4 {
     background-size: 28px;
     background-position: 7% 40%;
     background-repeat: no-repeat;
+    transition: background-size 0.3s linear;
 }
 .add-cart {
     text-transform: uppercase;
