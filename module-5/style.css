@@ -256,17 +256,15 @@ h4 {
     transition: 0.3s linear;
 }
 .buy{
-    border:7.5px white solid;
-    opacity: 0;
+    border:7.5px white solid;  
     left: 0%;
     top: 0%;
-    background-color: black;
     width: 240px;
     height: 268px;
     position: absolute;
 }
 .collection li:hover .buy {
-    opacity: 0.6;
+    background-color:rgba(0, 0, 0, 0.6);
     transition: 0.3s linear;
 }
 .icons {
@@ -300,9 +298,7 @@ h4 {
     background-repeat: no-repeat;
     background-position: center;
     width: 50px;
-    top: 0%;
     height: 50px;
-    left: 0%;
     position: absolute;
     border: 1px solid white;
 }
