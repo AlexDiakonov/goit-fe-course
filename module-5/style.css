@@ -294,7 +294,7 @@ h4 {
 .icon {
     background: transparent;
     background-image: url(img/heart.png);
-    background-size: 30px;
+    background-size: 25px;
     background-repeat: no-repeat;
     background-position: center;
     width: 50px;
@@ -308,7 +308,7 @@ h4 {
     height: 50px;
     background: transparent;
     background-image: url(img/share.png);
-    background-size: 30px;
+    background-size: 25px;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -318,7 +318,7 @@ h4 {
     height: 50px;
     background: transparent;
     background-image: url(img/watch.png);
-    background-size: 30px;
+    background-size: 25px;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -332,8 +332,8 @@ h4 {
     height: 50px;
     position: absolute;
     background-image: url(img/cart.png);
-    background-size: 30px;
-    background-position: 5% 50%;
+    background-size: 28px;
+    background-position: 7% 40%;
     background-repeat: no-repeat;
 }
 .add-cart {
@@ -344,7 +344,7 @@ h4 {
     float: right;
 }
 .pow:hover {
-    background-size: 40px;
+    background-size: 35px;
     border: none;
     background-color: #1abc9c;
     transition: 0.3s linear;
