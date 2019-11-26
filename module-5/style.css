@@ -33,7 +33,7 @@ h1::first-letter {
 .header-container {
     padding-bottom: 40px;
     margin: 0 auto;
-    width: 69.4%;
+    width: 1110px;
 }
 .menu {
     float: right;
@@ -178,7 +178,7 @@ main{
 /* main collection starts here!!!! */
 .new-coll {
     margin: 0 auto;
-    width: 69.4%;
+    width: 1110px;
 }
 h3 {
     margin: 0px;
