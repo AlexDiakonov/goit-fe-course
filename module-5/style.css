@@ -33,7 +33,7 @@ h1::first-letter {
 .header-container {
     padding-bottom: 40px;
     margin: 0 auto;
-    width: 1110px;
+    width: 86.75%;
 }
 .menu {
     float: right;
@@ -148,7 +148,7 @@ h1::first-letter {
     list-style: none;
     margin: 0;
     padding: 0;
-    width: 555px;
+    width: 38.5%;
     left: 27%;
     top: 33%;
     z-index: 6;
@@ -159,7 +159,7 @@ h1::first-letter {
     margin-top: 0px;
     font-weight: 350;
     color: white;
-    font-size: 45px;
+    font-size: 40px;
 
 }
 .slider-p{
@@ -180,7 +180,7 @@ main{
 /* main collection starts here!!!! */
 .new-coll {
     margin: 0 auto;
-    width: 1110px;
+    width: 86.75%;
 }
 h3 {
     margin: 0px;
