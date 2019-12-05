@@ -184,7 +184,7 @@ nav {
     animation: map-flow linear 11000ms infinite;
 }
 @keyframes map-flow{
-    0% {transform: translateX(-1150px);
+    0% {transform: translateX(-1100px);
     }
     100% {transform: translateX(1100px);
 }
