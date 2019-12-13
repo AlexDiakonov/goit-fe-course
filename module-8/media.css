@@ -30,10 +30,6 @@
         justify-content: space-around;
         padding: 0;
     }
-    .login-link:hover:active {
-        border: 2px solid white;
-        border-radius: 50px;
-    }
     .container {
         margin: 0 auto;
         padding-bottom: 60px ;
@@ -65,11 +61,6 @@
         border-radius: 50px;
         border: 2px solid white;
     }
-button:hover:active {
-    background-color:red;
-    color: white;
-
-}
 .motto-wraper {
     display: flex;
     flex-direction: column;
@@ -113,11 +104,7 @@ main {
     bottom: 57%;
     left: 61%;
     background-size: 23px;
-}
-    .header-button:hover:active {
-    border: red 2px solid;
-    background-color: red;
-  }
+}   
 button {
 color:red;
 outline: none;
@@ -189,10 +176,6 @@ border-radius: 50px;
         border-radius: 50px;
         font-size: 14px;
         border: 2px solid white;
-    }
-    .header-button:hover:active {
-        border: red 2px solid;
-        background-color: red;
     }
     main {
         max-width: 600px;
