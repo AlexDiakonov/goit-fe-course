@@ -1,0 +1,164 @@
+/* roboto-300 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'),
+         url(fonts/roboto-v20-latin-300.woff2) format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url(fonts/roboto-v20-latin-300.woff) format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-regular - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'),
+         url(fonts/roboto-v20-latin-regular.woff2) format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url(fonts/roboto-v20-latin-regular.woff) format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-regular - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+         url(fonts/montserrat-v14-latin-regular.woff2) format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url(fonts/montserrat-v14-latin-regular.woff) format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-700 - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat Bold'), local('Montserrat-Bold'),
+         url(fonts/montserrat-v14-latin-700.woff2) format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url(fonts/montserrat-v14-latin-700.woff) format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+ul {
+    list-style: none;
+}
+a {
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
+h1 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+}
+.span1  {
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+}
+.motto2 {
+    color: #333333;
+    margin: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+}
+.span2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ffffff;
+}
+.header-button {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    transition: 200ms linear;
+}
+h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    color: #333333;
+}
+.about {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #8f8f8f;
+}
+.button {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    transition: 200ms linear;
+} 
+li > img {
+    margin: 0% auto;
+}
+.header-img {
+    width: 100%;
+    position: relative;
+    margin-bottom: 75px;
+}
+.header-img::before {
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    filter: brightness(0.7);
+    background-image: url(Img/bgi.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    position: relative;
+}
+.login-link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    padding: 10px 30px;
+    font-size: 14px;
+    border-radius: 50px;
+    border: 2px solid transparent;
+    transition: 200ms linear;
+}
+span {
+    display: block;
+}
+.cool-kids-item > p {
+    text-align: center;
+}
+.button {
+  align-self: center;
+}
+.cool-kids-item {
+    position: relative;
+}
+.icon1::before {
+    background-image: url(Img/tv.png);
+    background-color: #ff4e50;    
+}
+.icon2::before {
+    background-image: url(Img/colb.png);
+    background-color: #ffa507;
+}
+.icon3::before {
+    background-image: url(Img/cup.png);
+    background-color: #1cd7ad;
+}
+.icon4::before {
+    background-image: url(Img/telegram.png);
+    background-color: #4e73db;
+}
+
+
+
