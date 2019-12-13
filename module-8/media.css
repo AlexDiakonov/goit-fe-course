@@ -8,9 +8,9 @@
         height: 540px;
         align-items: center;
     }
-    a {
+    /* a {
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    }
+    } */
     h1 > .logo {
         align-self: center;
         font-size: 20px;
@@ -138,9 +138,9 @@ border-radius: 50px;
         margin: 0 auto;
         align-items: center;
     }
-    a {
+    /* a {
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    }
+    } */
     .hello-wrap {
         min-width: 600px;
         display: flex;
