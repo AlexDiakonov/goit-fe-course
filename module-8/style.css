@@ -77,7 +77,7 @@ h1 {
     cursor: pointer;
     transition: 200ms linear;
 }
-.header-button:hover:active {
+.header-button:active {
     border: red 2px solid;
     background-color: red;
   }
@@ -105,7 +105,7 @@ h3 {
     cursor: pointer;
     transition: 200ms linear;
 } 
-button:hover:active {
+button:active {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     background-color:red;
     color: white;
@@ -145,7 +145,7 @@ header {
     border: 2px solid transparent;
     transition: 200ms linear;
 }
-.login-link:hover:active {
+.login-link:active {
     border: 2px solid white;
     border-radius: 50px;
 }
