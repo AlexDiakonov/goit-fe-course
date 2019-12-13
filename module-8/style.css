@@ -74,6 +74,7 @@ h1 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
+    cursor: pointer;
 }
 h3 {
     font-family: 'Montserrat';
@@ -95,6 +96,7 @@ h3 {
     font-weight: 700;
     font-size: 14px;
     align-self: center;
+    cursor: pointer;
 } 
 li > img {
     margin: 0% auto;
@@ -121,6 +123,7 @@ header {
     position: relative;
 }
 .login-link {
+    cursor: pointer;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
