@@ -106,6 +106,7 @@ h3 {
     transition: 200ms linear;
 } 
 button:hover:active {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     background-color:red;
     color: white;
 }
