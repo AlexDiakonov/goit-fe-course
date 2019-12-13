@@ -75,7 +75,7 @@ h1 {
     font-style: normal;
     font-weight: 700;
     cursor: pointer;
-    transition: 200ms linear;
+    transition: 100ms linear;
 }
 .header-button:active {
     border: red 2px solid;
