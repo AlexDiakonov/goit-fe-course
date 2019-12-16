@@ -30,7 +30,7 @@
         justify-content: space-around;
         padding: 0;
     }
-    .login-link:hover:active {
+    .login-link:active {
         border: 2px solid white;
         border-radius: 50px;
     }
@@ -65,7 +65,7 @@
         border-radius: 50px;
         border: 2px solid white;
     }
-button:hover:active {
+button:active {
     background-color:red;
     color: white;
 
@@ -93,10 +93,16 @@ main {
     flex-direction: column;
     justify-content: center;
 }
+.cool-kid-link {
+    align-self: center;
+    transition: 80ms linear;
+}
+.cool-kid-link:active {
+    transform: scale(1.2);
+}
 .cool-kids-item {
     width: 230px;
     height: 290px;
-    align-self: center;
     display: flex;
     flex-direction: column;
 }
@@ -114,7 +120,7 @@ main {
     left: 61%;
     background-size: 23px;
 }
-    .header-button:hover:active {
+    .header-button:active {
     border: red 2px solid;
     background-color: red;
   }
@@ -157,7 +163,7 @@ border-radius: 50px;
         display: flex;
         justify-content: space-between;
     }
-    .login-link:hover:active {
+    .login-link:active {
         border: 2px solid white;
         border-radius: 50px;
     }
@@ -190,7 +196,7 @@ border-radius: 50px;
         font-size: 14px;
         border: 2px solid white;
     }
-    .header-button:hover:active {
+    .header-button:active {
         border: red 2px solid;
         background-color: red;
     }
@@ -217,6 +223,13 @@ border-radius: 50px;
         height: 500px;
         margin-bottom: 50px;
         align-items: center;
+    }
+    .cool-kid-link {
+        align-self: center;
+        transition: 80ms linear;
+    }
+    .cool-kid-link:active {
+        transform: scale(1.2);
     }
     .cool-kids-item {
         width: 215px;
@@ -248,7 +261,7 @@ border-radius: 50px;
         height: 45px;
         border-radius: 50px;
         }
-    .button:hover:active {
+    .button:active {
         background-color: red;
         color: white;
     }
@@ -332,6 +345,12 @@ border-radius: 50px;
         width: 940px;
         margin-bottom: 35px;
     }
+    .cool-kid-link {
+        transition: 80ms linear;
+    }
+    .cool-kid-link:hover {
+        transform: scale(1.2);
+    }
     .cool-kids-item {
         display: flex;
         flex-direction: column;
@@ -345,13 +364,13 @@ border-radius: 50px;
         align-items: center;
         margin: 0 auto;
     }
-    .icon2{ 
+    .link2{ 
         order: 3;
     }
-    .icon3 {
-        order: 2
+    .link3 {
+        order: 2;
     }
-    .icon4 {
+    .link4 {
         order: 4;
     }
     .cool-kids-item::before {
