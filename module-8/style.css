@@ -74,14 +74,8 @@ h1 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    cursor: pointer;
-    transition: 100ms linear;
+    transition: 200ms linear;
 }
-.header-button:active {
-    border: red 2px solid;
-    background-color: red;
-  }
-
 h3 {
     font-family: 'Montserrat';
     font-style: normal;
@@ -101,15 +95,8 @@ h3 {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    align-self: center;
-    cursor: pointer;
-    transition: 100ms linear;
+    transition: 200ms linear;
 } 
-button:active {
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    background-color:red;
-    color: white;
-}
 li > img {
     margin: 0% auto;
 }
@@ -135,7 +122,6 @@ header {
     position: relative;
 }
 .login-link {
-    cursor: pointer;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -143,17 +129,16 @@ header {
     font-size: 14px;
     border-radius: 50px;
     border: 2px solid transparent;
-    transition: 100ms linear;
-}
-.login-link:active {
-    border: 2px solid white;
-    border-radius: 50px;
+    transition: 200ms linear;
 }
 span {
     display: block;
 }
 .cool-kids-item > p {
     text-align: center;
+}
+.button {
+  align-self: center;
 }
 .cool-kids-item {
     position: relative;
