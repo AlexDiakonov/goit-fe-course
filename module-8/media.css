@@ -47,6 +47,7 @@
         height: 200px;
         justify-content: center;
         align-items: center;
+        margin-bottom: 40px;
     }
     .span1 {
         font-size: 30px;
@@ -77,6 +78,9 @@ button:active {
     color: white;
 
 }
+h2 {
+    margin: 0px;
+}
 .motto-wraper {
     display: flex;
     flex-direction: column;
@@ -89,7 +93,6 @@ main {
     flex-direction: column;
 }
 .motto2 {
-    width: 310px;
     text-align: center;
     margin-bottom: 30px;
 }
@@ -146,7 +149,7 @@ border-radius: 50px;
 transition: 50ms linear;
 }
 }
-@media (min-width:600px) and (max-width:1024px) {
+@media (min-width:600px) and (max-width:959px) {
     header {
         display: flex;
         flex-direction: column;
@@ -168,6 +171,9 @@ transition: 50ms linear;
     h1 {
         font-size: 20px;
         order: 1;
+    }
+    h2 {
+        margin: 0;
     }
     .login {
         order: 2;
@@ -225,9 +231,10 @@ transition: 50ms linear;
     .motto2 {   
         margin-left: 30px;
         display: flex;
-        min-width: 452px;
-        justify-content: space-between;
         margin-bottom: 20px;
+    }
+    .main-span {
+        margin-left: 9px;
     }
     .cool-kids {
         display: flex;
@@ -286,7 +293,7 @@ transition: 50ms linear;
     }
     
 }
-@media (min-width: 1025px) {
+@media (min-width: 960px) {
     header {
         height: 700px;
         max-width: 940px;
@@ -295,6 +302,9 @@ transition: 50ms linear;
         flex-direction: column;
         align-items: center;
         padding-top: 30px;
+    }
+    h2 {
+        margin: 0;
     }
     .hello-wrap {
         display: flex;
@@ -348,11 +358,12 @@ transition: 50ms linear;
     }
     .motto2 {
         display: flex;
-        justify-content: space-between;
-        width: 415px;
         font-size: 22px;
         margin-left: 30px;
         margin-bottom: 30px;
+    }
+    .main-span {
+        margin-left: 9px;
     }
     .cool-kids {
         display: flex;
