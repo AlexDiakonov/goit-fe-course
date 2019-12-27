@@ -43,14 +43,6 @@
     border: 3px solid transparent;
     padding: 8px 25px;
 }
-.nav-but:active {
-    border: 3px solid white;
-    border-radius: 50px;
-}
-.nav-but:hover {
-    border: 3px solid white;
-    border-radius: 50px;
-}
 a {
     display: block;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -67,14 +59,7 @@ a {
     padding: 10px;
     border: 2px solid white;
 }
-.header-but:active {
-    background-color: #ff4e50;
-    border: #ff4e50 2px solid;
-}
-.header-but:hover {
-    background-color: #ff4e50;
-    border: #ff4e50 2px solid;
-}
+
 ul{
     list-style: none;
 }
@@ -211,16 +196,6 @@ main {
     border-radius: 50px;
     outline: none;
 }
-.other-partners:active {
-    color: white;
-    background-color: #ff4350;
-    border: 3px solid #ff4e50;
-}
-.other-partners:hover {
-    color: white;
-    background-color: #ff4350;
-    border: 3px solid #ff4e50;
-}
 @media (max-width: 747px) {
     .backgroundImg {
         height: 540px;
@@ -239,6 +214,15 @@ main {
     .header-title {
         font-size: 30px;
     }
+    .header-but:active {
+        background-color: #ff4e50;
+        border: #ff4e50 2px solid;
+    }
+    .other-partners:active {
+        color: white;
+        background-color: #ff4350;
+        border: 3px solid #ff4e50;
+    }
     .header-text {
         width: 200px;
         margin: 0 auto;
@@ -252,6 +236,10 @@ main {
     }
     .cool-kids:active {
         transform: scale(1.15);
+    }
+    .nav-but:active {
+        border: 3px solid white;
+        border-radius: 50px;
     }
     }
     @media (min-width: 748px) and (max-width: 939px) {
@@ -273,9 +261,22 @@ main {
             font-size: 24px;
             margin-bottom: 100px;
         }
+        .other-partners:active {
+            color: white;
+            background-color: #ff4350;
+            border: 3px solid #ff4e50;
+        }
         .header-but {
             width: 45%;
             margin: 0 auto;
+        }
+        .header-but:active {
+            background-color: #ff4e50;
+            border: #ff4e50 2px solid;
+        }
+        .nav-but:active {
+            border: 3px solid white;
+            border-radius: 50px;
         }
         .partners-header {
             margin-bottom: 40px;
@@ -314,11 +315,24 @@ main {
             width: 30%;
             margin: 0 auto;
         }
+        .header-but:hover {
+            background-color: #ff4e50;
+            border: #ff4e50 2px solid;
+        }
+        .nav-but:hover {
+            border: 3px solid white;
+            border-radius: 50px;
+        }
         .partners-header {
             margin-bottom: 40px;
         }
         .other-partners {
             width: 60%;
+        }
+        .other-partners:hover {
+            color: white;
+            background-color: #ff4350;
+            border: 3px solid #ff4e50;
         }
         .cool-kids {
             margin-bottom: 0px;
