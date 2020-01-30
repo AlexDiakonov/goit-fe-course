@@ -1,0 +1,6 @@
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .header-container__img {
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#e78282), to(#efd88995) ), url(img/eagle@2x-min.png);
+    background-image: linear-gradient(to bottom, #e78282, #efd88995), url(img/eagle@2x-min.png);
+    }
+}
