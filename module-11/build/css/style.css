@@ -159,14 +159,14 @@ p {
 .header-container__img {
   width: 100%;
   height: 875px;
-  background-image: linear-gradient(to bottom, #e78282, #efd88995), url(/img/eagle@2x-min.png);
+  background-image: linear-gradient(to bottom, #e78282, #efd88995), url(img/eagle@2x-min.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .header-container__img {
-    background-image: linear-gradient(to bottom, #e78282, #efd88995), url(/img/eagle@2x-min.png); } }
+    background-image: linear-gradient(to bottom, #e78282, #efd88995), url(img/eagle@2x-min.png); } }
 
 .site-header {
   width: 1200px; }
@@ -424,22 +424,22 @@ p {
     background-repeat: no-repeat; }
 
 .main-item-container__icon--clock::before {
-  background-image: url(/img/ALARM.svg); }
+  background-image: url(img/ALARM.svg); }
 
 .main-item-container__icon--graph::before {
-  background-image: url(/img/GRAPH.svg); }
+  background-image: url(img/GRAPH.svg); }
 
 .main-item-container__icon--computer::before {
-  background-image: url(/img/comp.svg); }
+  background-image: url(img/comp.svg); }
 
 .main-item-container__icon--book::before {
-  background-image: url(/img/BOOK.svg); }
+  background-image: url(img/BOOK.svg); }
 
 .main-item-container__icon--home::before {
-  background-image: url(/img/HOME.svg); }
+  background-image: url(img/HOME.svg); }
 
 .main-item-container__icon--cross::before {
-  background-image: url(/img/CROSS.svg); }
+  background-image: url(img/CROSS.svg); }
 
 .main-item__description {
   font-family: "Roboto", sans-serif;
@@ -540,22 +540,22 @@ p {
     background-repeat: no-repeat; }
 
 .main-item-container__icon--clock::before {
-  background-image: url(/img/ALARM.svg); }
+  background-image: url(img/ALARM.svg); }
 
 .main-item-container__icon--graph::before {
-  background-image: url(/img/GRAPH.svg); }
+  background-image: url(img/GRAPH.svg); }
 
 .main-item-container__icon--computer::before {
-  background-image: url(/img/comp.svg); }
+  background-image: url(img/comp.svg); }
 
 .main-item-container__icon--book::before {
-  background-image: url(/img/BOOK.svg); }
+  background-image: url(img/BOOK.svg); }
 
 .main-item-container__icon--home::before {
-  background-image: url(/img/HOME.svg); }
+  background-image: url(img/HOME.svg); }
 
 .main-item-container__icon--cross::before {
-  background-image: url(/img/CROSS.svg); }
+  background-image: url(img/CROSS.svg); }
 
 .main-item__description {
   font-family: "Roboto", sans-serif;
