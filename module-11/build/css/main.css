@@ -116,22 +116,22 @@ p {
     background-repeat: no-repeat; }
 
 .main-item-container__icon--clock::before {
-  background-image: url(img/ALARM.svg); }
+  background-image: url(../img/ALARM.svg); }
 
 .main-item-container__icon--graph::before {
-  background-image: url(img/GRAPH.svg); }
+  background-image: url(../img/GRAPH.svg); }
 
 .main-item-container__icon--computer::before {
-  background-image: url(img/comp.svg); }
+  background-image: url(../img/comp.svg); }
 
 .main-item-container__icon--book::before {
-  background-image: url(img/BOOK.svg); }
+  background-image: url(../img/BOOK.svg); }
 
 .main-item-container__icon--home::before {
-  background-image: url(img/HOME.svg); }
+  background-image: url(../img/HOME.svg); }
 
 .main-item-container__icon--cross::before {
-  background-image: url(img/CROSS.svg); }
+  background-image: url(../img/CROSS.svg); }
 
 .main-item__description {
   font-family: "Roboto", sans-serif;
