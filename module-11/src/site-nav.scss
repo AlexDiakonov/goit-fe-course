@@ -1,0 +1,56 @@
+@import 'common.scss';
+@import 'var.scss';
+
+.site-navigation {
+    padding-top: 30px;
+    @extend %flex;
+    margin-bottom: 130px;
+}
+.site-navigation__logo {
+    font-family: $title-font;
+}
+.site-navigation-list {
+    @extend %flex;
+    width: 615px;
+}
+.site-navigation__link {
+    font-family: $title-font;
+    text-transform: uppercase;
+    transition: 200ms linear;
+    position: relative;
+    &:hover {
+        color: $hover-nav-col;
+    }
+    &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 140%;
+    transform: translateX(-50%);
+    width: 0%;
+    height: 3px;
+    background-color: $hover-nav-col;
+    transition: linear 200ms;
+}
+    &:hover::after{
+        width: 100%;
+    }
+}
+.site-navigation__btn {
+    background: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 200ms linear;
+}
+.site-navigation__svg {
+    width: 22px;
+    height: 22px;
+    fill: $head-font-col;
+    transition: 200ms linear;
+    &:hover {
+        fill: $hover-nav-col;
+        transform: scale(1.2);
+    }
+}

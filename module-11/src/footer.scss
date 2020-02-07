@@ -1,0 +1,52 @@
+@import 'var.scss';
+@import 'common.scss';
+
+.site-footer {
+    width: 1200px;
+    height: 65px;
+    margin: 0 auto;
+    border-top: 1px solid $bottom-bord-color;
+    @extend %flex;
+}
+.left-wrap {
+    font-family: $title-font;
+    align-self: center;
+    font-weight: 400;
+}
+.left-wrap__link {
+    font-family: $title-font;
+    font-weight: 400;
+    text-decoration: none;
+    color: $soc-ic-col;
+}
+.right-wrap {
+    align-self: center;
+    border: 1px solid $bottom-bord-color;
+}
+.right-wrap__input--email {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 100;
+    width: 230px;
+    height: 43px;
+    padding-left: 7px;
+    outline: none;
+    border: none;
+}
+.right-wrap__input--btn {
+    font-family: $title-font;
+    font-weight: 700;
+    width: 150px;
+    height: 44px;
+    outline: none;
+    border: none;
+    background-color:$footer-btn-col;
+    color: $footer-btn-txt;
+    text-transform: uppercase;
+    -webkit-transition: 200ms linear;
+    transition: 200ms linear;
+    cursor: pointer;
+    &:hover {
+        background-color: $footer-btn-hov;
+    }
+}

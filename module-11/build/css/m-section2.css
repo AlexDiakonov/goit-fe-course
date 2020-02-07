@@ -1,0 +1,113 @@
+html {
+  box-sizing: border-box; }
+
+* {
+  box-sizing: inherit; }
+  *::before, *::after {
+    box-sizing: inherit; }
+
+h1, h2, h3, h4, h5 {
+  margin: 0; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+.team-members, .social-icon {
+  display: flex;
+  justify-content: space-between; }
+
+a {
+  text-decoration: none;
+  color: white; }
+
+ul {
+  list-style: none; }
+
+p {
+  margin: 0;
+  padding: 0; }
+
+.section-team__paragraph {
+  font-family: "Roboto", sans-serif;
+  color: #a6a6a6;
+  line-height: 24px;
+  text-align: center;
+  font-size: 15px;
+  width: 940px;
+  margin: 0 auto;
+  margin-bottom: 93px; }
+
+.team-list__bg {
+  background-color: #95e1d3;
+  height: 470px;
+  width: 380px;
+  margin-bottom: 30px; }
+
+.team-list {
+  position: relative; }
+
+.team-list-container {
+  position: absolute;
+  top: 0%;
+  transition: linear 200ms; }
+  .team-list-container:hover {
+    transform: translate(-10px, -10px) rotate(1deg); }
+
+.team-list-gradient {
+  width: 380px;
+  height: 470px;
+  position: absolute;
+  top: 0;
+  transition: linear 200ms; }
+  .team-list-gradient:hover {
+    background-image: linear-gradient(to bottom, rgba(237, 214, 134, 0.8), rgba(236, 136, 138, 0.8)); }
+  .team-list-gradient.team-list-gradient:hover .social-icon {
+    opacity: 1; }
+
+.social-icon {
+  width: 225px;
+  height: 55px;
+  justify-content: space-between;
+  margin: 57% auto;
+  opacity: 0; }
+
+.social-icon-item {
+  background-color: #fce38a;
+  width: 56px;
+  height: 100%; }
+  .social-icon-item:nth-child(-n+3) {
+    border-right: solid 1px #f38181; }
+
+.social-icon__link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center; }
+  .social-icon__link:hover .social-icon__link--icon {
+    fill: white;
+    transform: scale(1.2); }
+
+.social-icon__link--icon {
+  align-self: center;
+  fill: #f38181;
+  transition: 200ms all; }
+
+.member-info__name {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px; }
+
+.member-info__position {
+  font-family: "Roboto", sans-serif;
+  color: #a6a6a6;
+  font-size: 15px;
+  text-align: center;
+  line-height: 24px; }
